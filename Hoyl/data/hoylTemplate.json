@@ -1,0 +1,9 @@
+{
+    "hasTemplate": "bool",
+    "componentsPath": "str",
+    "routerPath": "str",
+    "routerControlFile": "str",
+    "pagesPath": "str",
+    "templateFile": "str",
+    "tsEnable": "bool"
+}
