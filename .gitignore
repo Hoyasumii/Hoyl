@@ -1,5 +1,4 @@
 # Ignore them
-submodules/**/*
 testProject
 
 # Byte-compiled / optimized / DLL files
