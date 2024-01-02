@@ -1,0 +1,36 @@
+{
+	hasTemplate: true,
+	componentsPath: '',
+	routerPath: '',
+	routerControlFile: '',
+	pagesPath: '',
+	tsEnable: false
+}
+
+-- Ele vai criar se não houver
+
+hoyl --args
+
+hoyl init
+-- Vai criar um novo projeto Hoyl, desde que o Vite esteja instalado
+
+hoyl cc { name } -c
+cc -> Create Component
+-c -> Complete? É para saber se ele vai criar uma pasta do componente com .module.css incluso
+
+hoyl cr { name } -c
+cr -> Create Route
+-c -> Complete? É para saber se ele vai criar uma pasta da rota.
+
+-- Sobre o Projeto com Hoyl:
+1. Ele vai checar se o hoyl.json existe, senão, o setup vai rodar. O setup também irá rodar se o Hoyl.json também não estiver coeso, ou seja, tiver menos colunas que o desejado, ou, o tipo de suas chaves não serem de acordo com o desejado
+2. Ele vai perguntar se o projeto está em TypeScript ou em JavaScript
+3. O setup vai checar se a pasta src existe e se não existir, ele vai perguntar qual em qual lugar ele quer que as pastas routes, pages e componentes, sejam criadas, caso não existam.
+4. Ele também vai perguntar qual vai ser o arquivo da rota? Após isso, ele irá também perguntar aonde o App.jsx está, que no caso seria o 
+5. Após isso, vai perguntar se existe template e terá as opções:
+5.1. Se ele quer criar um template
+5.2. Se ele quer usar um template já criado no projeto
+5.3. Se ele não quer nenhum template
+
+- Inicialização do Hoyl:
+1. O projeto será rodado normalmente em JavaScript ou em TypeScript? (Y/ANY)

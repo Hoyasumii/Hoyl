@@ -1,1 +1,4 @@
-## Enquanto eu não consigo colocar JSONManager no PyPi, antes de rodar, use o git submodule init e o git subodule update
+`python -m venv venv`
+`venv/Scripts/activate`
+`pip install -r requirements.txt`
+`git submodule update --init`
