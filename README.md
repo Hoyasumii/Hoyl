@@ -1,0 +1,1 @@
+## Enquanto eu não consigo colocar JSONManager no PyPi, antes de rodar, use o git submodule init e o git subodule update
